@@ -26,7 +26,6 @@
   }
 
 .logo {
-  background: url("../images/logo_place_header.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,6 +37,8 @@
   height: 32px;
   left: 64px;
   top: 30px;
+  background: url("../images/logo_place_header.svg");
+  width: 228px;
   }
 
 .header__title {
@@ -108,7 +109,7 @@
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
-  min-width: 175px;
+  max-width: 175px;
   margin: 0;
   font-weight: normal;
   }
@@ -127,7 +128,7 @@
   margin: 0 0 30px 0;
   padding: 0;
   }
-.two-columns__paragraph:first-child {
+.two-columns__paragraph:last-child {
   margin-top: 0;
 }
 
@@ -306,6 +307,7 @@
   box-sizing:border-box;
   padding-top: 60px;
   padding-bottom: 40px;
+  min-height: 350px;
   }
 
 
@@ -325,8 +327,8 @@
   flex-direction: column;
 }
 
-.logo__place_footer {
-background: url(../images/logo_place_footer.svg);
+.logo_place_footer {
+  background: url(../images/logo_place_footer.svg);
   margin: 0;
   height: 32px;
   width: 228px;
