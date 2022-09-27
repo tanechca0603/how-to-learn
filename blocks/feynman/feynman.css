@@ -1,7 +1,7 @@
 .feynman {
   display: flex;
   flex-direction: column;
-  background: url('/images/feynman.png'), #F2F2F2;
+  background: url('../../images/feynman.png'), #F2F2F2;
   background-size: 867px 637px;
   background-position: left bottom;
   background-repeat: no-repeat;
